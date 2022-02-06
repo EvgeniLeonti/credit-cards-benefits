@@ -267,10 +267,10 @@ export default Vue.extend({
   },
   computed: {
     numberOfPages () {
-      return Math.ceil(this.items.length / this.itemsPerPage)
+      return Math.ceil((this as any).items.length / (this as any).itemsPerPage)
     },
     filteredKeys () {
-      return this.keys.filter(key => key !== 'title')
+      return (this as any).keys.filter(key => key !== 'title')
     },
   },
   methods: {
