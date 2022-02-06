@@ -104,6 +104,18 @@
             min-height="70vh"
             rounded="lg"
         >
+          <v-alert
+              border="left"
+              close-text="Close Alert"
+              color="deep-purple accent-4"
+              dark
+              dismissible
+          >
+            האתר נועד לרכז את כל ההטבות והמבצעים שחברות כרטיסי האשראי מציעות.
+            כאן תוכלו לחפש הטבה ספציפית, לסנן לפי קטגוריה / כרטיס אשראי,
+            ולהשוות הטבות ומבצעים בין כרטיסי אשראי שונים.
+          </v-alert>
+
           <v-alert color="success" v-if="search">
             <div style="color: white">מציג תוצאות חיפות עבור <strong>{{search}}</strong></div>
           </v-alert>
