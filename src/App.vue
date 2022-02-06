@@ -367,10 +367,10 @@ export default Vue.extend({
       this.items = this.originalItems.filter(item => selectedProviders.find(provider => provider === item.provider));
       this.items = this.items.filter(item => selectedCategories.find(category => category === item.category));
       if (this.search && this.search.length > 0) {
-        this.items = this.items.filter(item => item.title.indexOf(this.search) > -1);
+        this.items = this.items.filter((item: any) => item.title.indexOf(this.search) > -1);
       }
     },
-    translateProvider(provider) {
+    translateProvider(provider: PROVIDER) {
       switch (provider) {
         case PROVIDER.CAL:
           return 'כאל'
@@ -380,7 +380,7 @@ export default Vue.extend({
           return 'מקס'
       }
     },
-    translateCategory(category) {
+    translateCategory(category: CATEGORY) {
       switch (category) {
         case CATEGORY.CINEMA:
           return 'קולנוע';
