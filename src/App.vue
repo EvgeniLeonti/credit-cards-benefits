@@ -117,7 +117,11 @@
           </v-alert>
 
           <v-alert color="success" v-if="search">
-            <div style="color: white">מציג תוצאות חיפות עבור <strong>{{search}}</strong></div>
+            <div style="color: white">
+              <span>מציג תוצאות חיפוש עבור <strong>{{search}}</strong></span>
+<!--              <v-spacer />-->
+<!--              <v-btn text @click="search=''" small color="white">ביטול</v-btn>-->
+            </div>
           </v-alert>
           <v-data-iterator
               :items="items"
