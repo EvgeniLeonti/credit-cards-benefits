@@ -138,7 +138,7 @@
   {
     "provider": "max",
     "category": "misc",
-    "title": "פיצה האט - מגוון הטבות שוות לארוחה משפחתית מפנקת",
+    "title": "פיצה האט - מגוון הטבות שוות לארוחה משפחתית מפנקת (תמורת פינוק)",
     "description": "",
     "url": "https://www.max.co.il/he-il/Benefits/BenefitsPlus/Breakfasts/Pages/pizzaHut2022.aspx?sourceGA=Lobby",
     "image": "https://www.max.co.il/he-il/Benefits/BenefitsPlus/Breakfasts/PublishingImages/O-Z/PIZZA2022/hut_small.low.jpg"
@@ -3414,6 +3414,14 @@
     "description": "",
     "url": "https://www.max.co.il/he-il/Benefits/BenefitsPlus/Plays/Pages/TapuhimMidbar.aspx?sourceGA=Lobby",
     "image": "https://www.max.co.il/he-il/Benefits/BenefitsPlus/Plays/PublishingImages/O-Z/TapuhimMidbar/tapuhim_small.low.jpg"
+  },
+  {
+    "provider": "max",
+    "category": "entertainment",
+    "title": "Slava's Snow Show - 60 ₪ הנחה (תמורת פינוק)",
+    "description": "",
+    "url": "https://www.max.co.il/he-il/Benefits/BenefitsPlus/Shows/Pages/Slava's-Snow-Show.aspx?sourceGA=Lobby",
+    "image": "https://www.max.co.il/he-il/Benefits/BenefitsPlus/Shows/PublishingImages/0-Z/O-Z/Slava/Slava270.jpg"
   },
   {
     "provider": "max",
@@ -6922,18 +6930,18 @@
   {
     "provider": "cal",
     "category": "misc",
-    "title": "פח טאץ' Brabantia ב- 739 ₪",
-    "description": "כולל משלוח עד הבית",
-    "url": "https://www.cal-store.co.il/product.php?pid=69BB32D5-54FD-43E6-B04D-50F68522363D&cid=F3873DBB-2B5D-4BC2-93F4-2C3B55C66ED6",
-    "image": "https://media.dolcehost.co.il/prod_files/20211007121444.jpg"
-  },
-  {
-    "provider": "cal",
-    "category": "misc",
     "title": "ערכה להכנת פיצה ב- 119 ₪ כולל משלוח",
     "description": "כולל משלוח עד הבית",
     "url": "https://www.cal-store.co.il/product.php?pid=9BD41954-A908-45A6-AFF9-BC43DF701FD2&cid=F3873DBB-2B5D-4BC2-93F4-2C3B55C66ED6",
     "image": "https://media.dolcehost.co.il/prod_files/20210426124640.jpg"
+  },
+  {
+    "provider": "cal",
+    "category": "misc",
+    "title": "פח טאץ' Brabantia ב- 739 ₪",
+    "description": "כולל משלוח עד הבית",
+    "url": "https://www.cal-store.co.il/product.php?pid=69BB32D5-54FD-43E6-B04D-50F68522363D&cid=F3873DBB-2B5D-4BC2-93F4-2C3B55C66ED6",
+    "image": "https://media.dolcehost.co.il/prod_files/20211007121444.jpg"
   },
   {
     "provider": "cal",
@@ -7738,18 +7746,18 @@
   {
     "provider": "cal",
     "category": "misc",
-    "title": "נעלי ריצה ניו בלאנס לגבר ב- 265 ₪ כולל משלוח",
-    "description": "כולל משלוח עד הבית",
-    "url": "https://www.cal-store.co.il/product.php?pid=539BCDE9-B442-4580-9DC1-0F97C8050236&cid=F3873DBB-2B5D-4BC2-93F4-2C3B55C66ED6",
-    "image": "https://media.dolcehost.co.il/prod_files/20210505084107.jpg"
-  },
-  {
-    "provider": "cal",
-    "category": "misc",
     "title": "סט גינה דמוי ראטן שחור ב- 1359 ₪",
     "description": "כולל משלוח עד הבית",
     "url": "https://www.cal-store.co.il/product.php?pid=5734DE32-457B-4540-9E3A-C8608B523772&cid=F3873DBB-2B5D-4BC2-93F4-2C3B55C66ED6",
     "image": "https://media.dolcehost.co.il/prod_files/20210818105757.jpg"
+  },
+  {
+    "provider": "cal",
+    "category": "misc",
+    "title": "נעלי ריצה ניו בלאנס לגבר ב- 265 ₪ כולל משלוח",
+    "description": "כולל משלוח עד הבית",
+    "url": "https://www.cal-store.co.il/product.php?pid=539BCDE9-B442-4580-9DC1-0F97C8050236&cid=F3873DBB-2B5D-4BC2-93F4-2C3B55C66ED6",
+    "image": "https://media.dolcehost.co.il/prod_files/20210505084107.jpg"
   },
   {
     "provider": "cal",
