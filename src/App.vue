@@ -241,13 +241,13 @@
 import Vue from 'vue';
 import data from '@/assets/data.json'
 
-enum PROVIDER {
+export enum PROVIDER {
   CAL = 'cal',
   MAX = 'max',
   ISRACARD = 'isracard',
 }
 
-enum CATEGORY {
+export enum CATEGORY {
   ATTRACTIONS = 'attractions',
   CINEMA = 'cinema',
   PARENTS = 'parents',
@@ -264,7 +264,7 @@ export default Vue.extend({
   beforeDestroy () {
     if (typeof window === 'undefined') return
 
-    window.removeEventListener('resize', this.onResize, { passive: true })
+    window.removeEventListener('resize', this.onResize, { passive: true } as any)
   },
 
   mounted () {
